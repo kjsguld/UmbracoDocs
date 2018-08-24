@@ -5,7 +5,7 @@ _This example is for creating a statically routed website which means that it's 
 #### Setup, bootstrap & launch
 
 * Go to a new folder to create a new .NET Core website and add references:
-   * _(Ensure you've created the `Nuget.config`, see above)_
+   * _(Ensure you've created the `Nuget.config`, [see here](./))_
    * `dotnet new mvc`
    * `dotnet add package UmbracoCms.Headless.Client -v 0.9.0-*`   
       * _NOTE: You use this same command to update to the latest version_
