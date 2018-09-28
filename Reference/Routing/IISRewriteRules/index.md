@@ -64,3 +64,5 @@ Another example would be to enforce HTTPS only on your site:
       </conditions>
       <action type="Redirect" url="https://{HTTP_HOST}/{R:1}" redirectType="Permanent" />
     </rule> 
+    
+Note that if you're using [Umbraco Latch](https://our.umbraco.com/documentation/Umbraco-Cloud/Set-Up/Manage-Domains/Umbraco-Latch) on a project that was created on 7.12 or above, you'll automatically be redirected to HTTPS.
